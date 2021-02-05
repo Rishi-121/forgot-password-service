@@ -151,7 +151,7 @@
             $random_string = rand_string(20);
             $modified_email = $random_string . $email . $random_string;
             $email_string = encrypt_decrypt('encrypt', $modified_email);
-            $link = "http://groupofprofessional.com/sss/forgot-password/php/user_password_entry.php?email=" . $email_string;
+            $link = ".../forgot-password/php/user_password_entry.php?email=" . $email_string;
             $msg = "
             <p>
                 Hello User,
